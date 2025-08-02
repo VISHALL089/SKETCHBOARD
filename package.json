@@ -1,10 +1,15 @@
 {
   "name": "SketchBoard",
   "version": "1.0.0",
+  "description": "A collaborative SketchBoard app",
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "express": "^5.1.0",
     "socket.io": "^4.8.1"
